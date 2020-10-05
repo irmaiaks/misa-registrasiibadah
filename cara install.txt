@@ -1,0 +1,14 @@
+1. Download dan install XAMPP versi 7.2
+2. Buat database mysql dengan nama 'misa' di phpmyadmin
+3. Extract misa.rar di dalam folder htdocs (Contoh: C:\xampp\htdocs)
+4. Buka command prompt lalu arah kan ke path project misa (Contoh: C:\xampp\htdocs\misa\src)
+5. Ketik perintah php artisan config:cache
+6. Kemudian ketik perintah composer dump-autoload
+7. Kemudian ketik perintah php artisan migrate
+8. Kemudian ketik perintah php artisan db:seed
+9. Selesai
+
+
+untuk user admin:
+username: admin
+password: admin123
